@@ -34,12 +34,12 @@ nav {
     background-color: black;
 }
 
-a:link {
+.navlink:link {
     color: white;
     text-decoration: none;
 }
 
-a:hover, a:active {
+.navlink:hover, .navlink:active {
     color: green;
 }
 
@@ -82,12 +82,54 @@ h1, h2 {
     color: white;
 }
 
-.sub-intro, .skill-list, .edu-list{
+.sub-intro, .skill-list, .edu-list, .contact-opt{
     font-size: 45px;
 }
 
 .skill-list, .contact-opt {
     word-spacing: 60px;
+}
+
+.fa-linkedin {
+    color: white;
+    size: 45px;
+    padding: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: white;
+    text-decoration: None;
+}
+
+.fa-linkedin:hover {
+    color: #007bb5;
+    border-color: #007bb5;
+    opacity: 0.7;
+}
+
+.fa-envelope {
+    color: white;
+    size: 45px;
+    margin-right: 10px;
+}
+
+.fa-envelope:hover {
+    color: #d43f3f;
+    opacity: 0.7;
+}
+
+.contact-link, .contact-link:hover, .contact-link:active {
+    text-decoration: None;
+}
+
+.contact-link:hover, .contact-link:active {
+    color: #d43f3f;
+    opacity: 0.7;
+}
+
+.linkedin:hover {
+    color: #007bb5;
+    opacity: 0.7;
 }
 
 footer {
