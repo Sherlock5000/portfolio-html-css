@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+* {
+    text-align: center;
+    font-family: "Gruppo", "Raleway", Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+    font-weight: 550;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    color: white;
+}
+
+.intro, .skills, .education, .contact {
+    font-size: 60px;
+}
+
+.intro {
+    background-color: #17172c;
+    padding-bottom: 200px;
+    color: white;
+}
+
+.skills {
+    background-color: #81bb81;
+    padding-bottom: 200px;
+    color: white;
+}
+
+.education {
+    background-color: #a16c6f;
+    padding-bottom: 200px;
+    color: white;
+}
+
+.contact {
+    background-color: #5b9185;
+    padding-bottom: 200px;
+    color: white;
+}
+
+.sub-intro, .skill-list, .edu-list{
+    font-size: 45px;
+}
+
+.skill-list, .contact-opt {
+    word-spacing: 60px;
+}
+
+footer {
+    font-size: 30px;
+    background-color: #17172c;
+    color: white;
+}
