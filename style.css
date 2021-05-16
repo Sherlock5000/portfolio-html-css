@@ -6,7 +6,41 @@
 
 * {
     text-align: center;
+    color: white;
     font-family: "Gruppo", "Raleway", Helvetica, Arial, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+  
+
+ul#menu li {
+    display:inline;
+}
+
+nav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    word-spacing: 30px;
+    font-size: 30px;
+    vertical-align: middle;
+    color: white;
+    background-color: black;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: green;
 }
 
 h1, h2 {
@@ -21,25 +55,29 @@ h1, h2 {
 }
 
 .intro {
-    background-color: #17172c;
+    /* background-color: #17172c; */
+    background: linear-gradient(to bottom,#17172c, #6d6d96);
     padding-bottom: 200px;
     color: white;
 }
 
 .skills {
-    background-color: #81bb81;
+    /* background-color: #81bb81; */
+    background: linear-gradient(to bottom, #1d501d, #7dc57d);
     padding-bottom: 200px;
     color: white;
 }
 
 .education {
-    background-color: #a16c6f;
+    /* background-color: #a16c6f; */
+    background: linear-gradient(to bottom, #743a3d, #b6818a);
     padding-bottom: 200px;
     color: white;
 }
 
 .contact {
     background-color: #5b9185;
+    background: linear-gradient(to bottom, #274e46, #7aafad);
     padding-bottom: 200px;
     color: white;
 }
