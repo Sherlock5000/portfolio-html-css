@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+* {
+    color: white;
+    font-family: "Gruppo", "Raleway", Helvetica, Arial, sans-serif;
+}
+/* --------------------------------------------------- */
+/* --------------------------------------------------- */
+@media(min-width:800px){
+    .container-1{
+      display:flex;
+      
+      /* align-items:flex-start;
+      align-items:flex-end;
+      align-items:center; */
+      
+      flex-direction:column;
+      
+    }
+}
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+
+.container-1 div, h3 {
+    text-align: center;
+}
+
+h3 {    
+    padding-top: 100px;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+h4 {
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 40px;
+}
+
+.box-0 > ul{
+    padding: 20px;
+}
+
+.para-end {
+    padding-bottom: 200px;
+}
+
+ul#menu li {
+    display:inline;
+}
+
+ul {
+    word-spacing: 30px;
+    font-size: 30px;
+    vertical-align: middle;
+    color: white;
+    background: black;
+}
+
+.navlink:link {
+    color: white;
+    text-decoration: none;
+}
+
+.navlink:hover, .navlink:active {
+    color: green;
+}
+
+img {
+    width: 175px;
+    height: 165px;
+    margin: 50px 50px 50px 50px;
+    border-radius: 50%;
+}
+
+.box-1 {
+    background: linear-gradient(to bottom,#17172c, #6d6d96);
+
+}
+
+.box-2 {
+    background: linear-gradient(to bottom, #47171d, #a7636b);
+}
+
+.box-3 {
+    background: linear-gradient(to bottom, #504c13, #cec982);
+}
+
+.box-4 {
+    background: linear-gradient(to bottom, #1d501d, #7dc57d);
+}
+
+.box-5 {
+    background: linear-gradient(to bottom, #743a3d, #b6818a);
+}
+
+.box-6 {
+    background: linear-gradient(to bottom, #274e46, #7aafad);
+}
+
+.box-4 > p, .box-6 > p {
+    word-spacing: 60px;
+}
+
+.fa-linkedin {
+    color: white;
+    size: 45px;
+    padding: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: white;
+    text-decoration: None;
+}
+
+.fa-linkedin:hover {
+    color: #007bb5;
+    border-color: #007bb5;
+    opacity: 0.7;
+}
+
+.fa-envelope {
+    color: white;
+    size: 45px;
+    margin-right: 10px;
+}
+
+.fa-envelope:hover {
+    color: #d43f3f;
+    opacity: 0.7;
+}
+
+.contact-link, .contact-link:hover, .contact-link:active {
+    text-decoration: None;
+}
+
+.contact-link:hover, .contact-link:active {
+    color: #d43f3f;
+    opacity: 0.7;
+}
+
+.linkedin:hover {
+    color: #007bb5;
+    opacity: 0.7;
+}
+  
+  
+  
+  
+  
+  
