@@ -1,58 +1,72 @@
+/* CSS Parameters Reset */
 * {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
+/* Changes applied to every element in the page */
 * {
     color: white;
     font-family: "Gruppo", "Raleway", Helvetica, Arial, sans-serif;
 }
-/* --------------------------------------------------- */
-/* --------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/* ------------------Media Query--------------------- */
 @media(min-width:800px){
     .container-1{
       display:flex;
-      
-      /* align-items:flex-start;
-      align-items:flex-end;
-      align-items:center; */
-      
       flex-direction:column;
-      
     }
 }
 /* ----------------------------------------------- */
 /* ----------------------------------------------- */
 
+/* ---Text alignment for all h3 headings--- */
 .container-1 div, h3 {
     text-align: center;
 }
 
+/* Hides scrollbar */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* h3 heading properties */
 h3 {    
     padding-top: 100px;
     font-size: 80px;
     font-weight: 700;
 }
 
+/* h4 heading properties */
 h4 {
     padding-top: 50px;
     font-size: 50px;
     font-weight: 600;
 }
 
+/* paragraph properties */
 p {
     font-size: 40px;
 }
 
+/* Nav-bar list property */
 .box-0 > ul{
     padding: 20px;
 }
 
+/* Setting padding before end of all sections */
 .para-end {
     padding-bottom: 200px;
 }
 
+/* Nav-bar list properties */
 ul#menu li {
     display:inline;
 }
@@ -74,6 +88,7 @@ ul {
     color: green;
 }
 
+/* Profile picture properties */
 img {
     width: 175px;
     height: 165px;
@@ -81,6 +96,7 @@ img {
     border-radius: 50%;
 }
 
+/* Individual box properties */
 .box-1 {
     background: linear-gradient(to bottom,#17172c, #6d6d96);
 
@@ -106,10 +122,12 @@ img {
     background: linear-gradient(to bottom, #274e46, #7aafad);
 }
 
+/* Increasing word-spacing in boxes 4 and 6 */
 .box-4 > p, .box-6 > p {
     word-spacing: 60px;
 }
 
+/* Setting properties for contact section symbols */
 .fa-linkedin {
     color: white;
     size: 45px;
