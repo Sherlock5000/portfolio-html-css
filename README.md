@@ -1,3 +1,3 @@
 # Portfolio HTML-CSS
 
-My portfolio in plan HTML and CSS
+My portfolio in plain HTML and CSS.
